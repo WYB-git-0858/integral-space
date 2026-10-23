@@ -1,0 +1,6 @@
+dist/vendor/** linguist-vendored=true
+dist/previews/** linguist-generated=true
+dist/previews2d/** linguist-generated=true
+*.mjs text eol=lf
+*.md text eol=lf
+*.woff2 binary

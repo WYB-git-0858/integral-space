@@ -1,0 +1,10 @@
+{
+  "name": "integral-space",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/verify.mjs && node scripts/verify-labs.mjs && node scripts/verify-speed-coordinates.mjs && node scripts/verify-workspaces-python.mjs",
+    "previews": "node scripts/make-previews.mjs && node scripts/make-plane-previews.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}
